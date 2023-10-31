@@ -1,8 +1,4 @@
 function Login() {
-  const handleChange = (e: any) => {};
-  const handleSubmit = async (e: React.MouseEvent) => {
-    e.preventDefault();
-  };
   return (
     <div className="h-full flex items-center">
       <div className="bg-base-50 p-4 flex flex-col gap-6">

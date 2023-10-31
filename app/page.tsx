@@ -6,7 +6,7 @@ function Homepage() {
       <div className="grid gap-4 grid-cols-2 grid-rows-2 border">
         <div className="primary-box flex flex-col justify-between">
           <h2 className="text-3xl font-semibold">Welcome!</h2>
-          <h1 className="text-6xl">{}</h1>
+          <h1 className="text-6xl"></h1>
         </div>
         <div className="flex flex-col gap-4">
           <div className="home-button-box group">

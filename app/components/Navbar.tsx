@@ -3,7 +3,7 @@ function Navbar() {
   const handleLoginLink = () => {};
   const handleLogout = () => {};
   return (
-    <div className="w-screen z-10 flex justify-between p-4 bg-seal-500 sticky top-0 left-0">
+    <div className="">
       <img
         src="src/assets/logo-1.png"
         alt=""

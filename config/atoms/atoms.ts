@@ -1,7 +1,7 @@
 import { atom } from "recoil";
 
-export const setDOI = atom({
-  key: "setDOI",
+export const PaperState = atom({
+  key: "paperState",
   default: {
     DOI: "",
     URL: "",
@@ -14,48 +14,6 @@ export const setDOI = atom({
     ],
     publisher: "",
   },
-});
-
-export const lakesState = atom({
-  key: "setLakes",
-  default: [
-    {
-      lakeName: "",
-      dayCreated: "",
-      papers: [
-        {
-          DOI: "",
-          URL: "",
-          title: "",
-          author: [
-            {
-              given: "",
-              family: "",
-            },
-          ],
-          publisher: "",
-        },
-      ],
-    },
-  ],
-});
-
-export const activePaperState = atom({
-  key: "activePaper",
-  default: [
-    {
-      DOI: "",
-      URL: "",
-      title: "",
-      author: [
-        {
-          given: "",
-          family: "",
-        },
-      ],
-      publisher: "",
-    },
-  ],
 });
 
 export const usernameState = atom({
